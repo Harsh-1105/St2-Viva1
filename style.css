@@ -206,12 +206,24 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
   }
+  
   .about
   {
+    background-color: #04AA6D;
     height: 1000px;
+  }
+  .about h1{
+    font-size: 23rem;
   }
   .contact
   {
+    background-color: #f64c72;
+    height: 1000px;
+  }
+  .contact h1{
+    font-size: 12rem;
+  }
+  .slideshow-container{
     height: 1000px;
   }
 

@@ -1,0 +1,64 @@
+:root {
+    --bgcolor:red;
+}
+* {
+    margin: 0;
+    padding: 0;
+ }
+ .page-header {
+    background-color: red;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.page-header h1{
+    margin-left: 200px;
+    font-size: 4rem;
+    color: aqua;
+}
+.nav-bar a   {
+    
+    color:red;
+    padding: 1.3rem;
+    position: fixed;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none;
+    
+    transition: 0.3s all ease-in-out;
+   
+}
+
+a:hover{
+    background-color: wheat;
+    font-size:3rem; 
+    border-radius: 20px;
+
+}
+
+.links{
+    float:right;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-bar a.active {
+    background-color: #f64c72;
+}
+.nav-bar {
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.nav-bar.responsive {
+    display: block;
+}
+
+
+
